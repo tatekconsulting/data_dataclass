@@ -7,7 +7,7 @@ def getpart():
 
     dd = file_name.split("_")[-1].split(".")[0]
     print(dd)
-
+##################
     datetime_obj = datetime.strptime(dd,'%Y%m%d').strftime('%Y-%m-%d')
     return datetime_obj
 
