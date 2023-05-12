@@ -10,7 +10,7 @@ def getpart():
 ##################
     datetime_obj = datetime.strptime(dd,'%Y%m%d').strftime('%Y-%m-%d')
     return datetime_obj
-
+IUHIHPIP[JMPHPIJN]
 
 #2a Python script to create a list and print out all elements in the list
 fruit_list = "Mango_banana_orange_pineapple_carrot_cucumba_pears_breadfruit_kiwi_cherry_apple"
