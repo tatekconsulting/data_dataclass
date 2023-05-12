@@ -2,15 +2,14 @@ from datetime import datetime
 
 #1. Python script to select date from the file_name
 
-file_name = "colossus_input_data_energy_20230326.csv"
+def getpart():
+    file_name = "colossus_input_data_energy_20230326.csv"
 
-dd = file_name.split("_")[-1].split(".")[0]
- #
-print(dd)
+    dd = file_name.split("_")[-1].split(".")[0]
+    print(dd)
 
-datetime_obj = datetime.strptime(dd,'%Y%m%d').strftime('%Y-%m-%d')
-
-print(datetime_obj)
+    datetime_obj = datetime.strptime(dd,'%Y%m%d').strftime('%Y-%m-%d')
+    return datetime_obj
 
 
 #2a Python script to create a list and print out all elements in the list
